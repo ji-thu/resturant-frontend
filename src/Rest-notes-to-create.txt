@@ -1,0 +1,67 @@
+
+
+
+
+
+                                  RESTUARENT LISTING App
+                                ___________________________
+
+  1.Create  an aplication - npx create-react-app restuarant-listing-app
+  2. cd restuarant-listing-app
+  3. code .
+  4.Run Application - npm start
+  5.Clear the unwanted codes
+  6.(As your choice)
+  ___________________________
+
+  1.choose a theme in the browser bootswatch.com
+  2.Dowload the theme in th arrow button and chose bootstrap.min.css
+  3.Import that fie in 'index.js' - import './bootstrap.min.css'
+
+  ___________________________
+
+  7. Use fontawesome - copy cdnjs link to index.html
+  8. Google fonts - copy and paste in the index.css - @import--------
+  9. Install react bootstrap - at - https://react-bootstrap.netlify.app/
+     
+     npm install react-bootstrap bootstrap
+
+ 10.Component creation 
+     =>> Componets(folder)
+        =>> Header(folder)
+            =>>Header.jsx
+            =>>Header.css
+        =>> Footer(folder)
+            =>>Footer.jsx
+            =>>Footer.css
+        =>>Allrest
+            =>>Allrest.jsx
+            =>>Allrest.css
+ 11.Set Header by using the react bootstrap
+ 12.Set footer by react bootstrap
+
+
+ 13.install axious
+    npm i axious
+14. Restcard card format text to display
+15. router setting
+    install react router dom - npm i react-router-dom
+
+16.<BrouserRouter></BrouserRouter> --- to render full application router
+17.<routers></routers> --- to hold multiple routers
+18.<route/> -- used for single route it is setting path
+
+
+        click next page display
+
+        ------------------------------
+
+    1.link the card
+    2.<link to={`/view/${restaurants.id}`}
+
+
+    get path parameter
+    -----------------
+
+    1.use a hook useParams
+    
